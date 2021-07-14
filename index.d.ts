@@ -28,15 +28,15 @@ declare namespace images {
 
         fill(red: number, green: number, blue: number, alpha?: number): this;
 
-        fillColor = this.fill;
+        //fillColor = this.fill;
 
         draw(img: Image, x: number, y: number): this;
 
-        drawImage = this.draw;
+        //drawImage = this.draw;
 
         encode(type: FILE_TYPE | TYPE, config?: EncoderConfig): Buffer;
 
-        toBuffer = this.encode;
+        //toBuffer = this.encode;
 
         save(file: string, type: FILE_TYPE | TYPE, config: EncoderConfig): this;
         save(file: string, config: EncoderConfig): this;
